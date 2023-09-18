@@ -3,112 +3,174 @@
  <head>
     <title>Главная страница</title>
   </head>
-<p id="home_page">Главная страница</p>
-<a href="http://kubsu.ru/">1)КубГУ</a> 
-<br>
-<a href="https://kubsu.ru/">2)КубГУ</a> 
-<br>
-<a href="http://kubsu.ru/"><img src="kubgu.png" alt="pic1" ></a>
-<br>
-<p id="top">Фрагмент страницы</p>
-<p><a href="/about.html">4)Ссылка на внутренюю страницу </a></p>
-<br>
-<a href="/index.html">5)Сокращенная ссылка на главную страницу</a>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<a href="#top">6)Ccылка на фрагмент текущей страницы</a>
-<br>
-<a href ="http://kubsu.ru?page=1&perpage=20&utm_term=web">7)Cсылка с тремя параметрами в URL</a>
-<br>
-<a href="/index.html?id=home_page">8)Ссылка с параметром id</a>
-<br>
-<a href="./about.html">9) Относительная на страницу в текущем  </a>
-<br>
-<a href="./about/about.html">10) Относительная на страницу в каталоге about</a>
-<br>
-<a href="../index.html">11) Относительная на страницу в каталоге уровнем выше текущего</a>
-<br>
-<a href="../../index.html">12)Ссылка на два каталога выше</a>
-<br>
-13) Абзац с контекстной ссылкой, <a href="index.html#home_page">вернуться в начало</a>
-<br>
-<a href="https://ru.wikipedia.org/wiki/HTML#Браузерные_войны">14)Cсылка на фрагмент страницы стороннего сайта</a>
-<br>
-<p>15) Cсылка из прямоугольных и круглых областей картинки (HTML-тег map)</p>
- <img src="meme.png" alt = "meme" usemap = "#button">
- <map name="button">
-   <area shape = "rect" coords = "720,450,980,540" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" alt="Красный квадрат">
-   <area shape = "circle" coords = "460,540,200" href="http://kubsu.ru/" alt="Красный круг">
-</map>
-<br>
-<a href="">16) Ссылка с пустым href</a>
-<br>
-<a>17) Ссылка без href</a>
-<br>
-<a href="http://kubsu.ru/" rel="nofollow">18) Cсылкa, по которой запрещен переход поисковикам</a>
-<br>
-<a href="http://site.com/" rel="noindex">19) Запрещенная для индексации поисковиками ссылка</a>
-<br>
-20)Нумерованный список ссылок с подписями title
- <ol>
-      <li><a href="https://www.kubsu.ru/index.php" title="Главный сайт">Number 1</a></li>
-      <li><a href="https://www.kubsu.ru/ru/abiturient/campaign2023" title="Приемная кампания">Number 2</a></li>
-      <li> <a href="https://www.kubsu.ru/node/38707" title="Списки зачисленных">Number 3</a></li>
- </ol>
-<br>
-   <a href="ftp://user:pass@tavalik.ru/Temp/file.txt">21) Ссылка на FTP с авторизацией</a>
-<br>
-   <form action="/"
-      method="POST">
+  <p id="head"></p>
+  <div style="width:100%; background-color:#ccc; padding: 10px; height:120px;">
+      <img style="float:left; margin:10px; width:100px; height:100px;" src="profile.png" alt="фото профиля" />
+      <div style="background-color:#ddd; padding:10px;">qqSnitch<br><a href="#home_page">Cписок ссылок</a> <a href="#table">Таблица</a> <a href="#form">Форма</a></div>
+    </div>
+  <body style="margin:0;">
+  <div style="max-width:960px; background-color:#ccc; margin: 0 auto; margin-top:20px; padding:10px;">
+	<p id="home_page"></p>
+	<a href="http://kubsu.ru/">1)КубГУ</a> 
+	<br>
+	<a href="https://kubsu.ru/">2)КубГУ</a> 
+	<br>
+	<a href="http://kubsu.ru/"><img src="kubgu.png" alt="pic1" ></a>
+	<br>
+	<p id="top">Фрагмент страницы</p>
+	<p><a href="/about.html">4)Ссылка на внутренюю страницу </a></p>
+	<br>
+	<a href="/index.html">5)Сокращенная ссылка на главную страницу</a>
+	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	<a href="#top">6)Ccылка на фрагмент текущей страницы</a>
+	<br>
+	<a href ="http://kubsu.ru?page=1&perpage=20&utm_term=web">7)Cсылка с тремя параметрами в URL</a>
+	<br>
+	<a href="/index.html?id=home_page">8)Ссылка с параметром id</a>
+	<br>
+	<a href="./about.html">9) Относительная на страницу в текущем  </a>
+	<br>
+	<a href="./about/about.html">10) Относительная на страницу в каталоге about</a>
+	<br>
+	<a href="../index.html">11) Относительная на страницу в каталоге уровнем выше текущего</a>
+	<br>
+	<a href="../../index.html">12)Ссылка на два каталога выше</a>
+	<br>
+	13) Абзац с контекстной ссылкой, <a href="index.html#home_page">вернуться в начало</a>
+	<br>
+	<a href="https://ru.wikipedia.org/wiki/HTML#Браузерные_войны">14)Cсылка на фрагмент страницы стороннего сайта</a>
+	<br>
+	<p>15) Cсылка из прямоугольных и круглых областей картинки (HTML-тег map)</p>
+	 <img src="meme.png" alt = "meme" usemap = "#button">
+	 <map name="button">
+	   <area shape = "rect" coords = "720,450,980,540" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" alt="Красный квадрат">
+	   <area shape = "circle" coords = "460,540,200" href="http://kubsu.ru/" alt="Красный круг">
+	</map>
+	<br>
+	<a href="">16) Ссылка с пустым href</a>
+	<br>
+	<a>17) Ссылка без href</a>
+	<br>
+	<a href="http://kubsu.ru/" rel="nofollow">18) Cсылкa, по которой запрещен переход поисковикам</a>
+	<br>
+	<a href="http://site.com/" rel="noindex">19) Запрещенная для индексации поисковиками ссылка</a>
+	<br>
+	20)Нумерованный список ссылок с подписями title
+	 <ol>
+		  <li><a href="https://www.kubsu.ru/index.php" title="Главный сайт">Number 1</a></li>
+		  <li><a href="https://www.kubsu.ru/ru/abiturient/campaign2023" title="Приемная кампания">Number 2</a></li>
+		  <li> <a href="https://www.kubsu.ru/node/38707" title="Списки зачисленных">Number 3</a></li>
+	 </ol>
+	<br>
+	   <a href="ftp://user:pass@tavalik.ru/Temp/file.txt">21) Ссылка на FTP с авторизацией</a>
+	<br>
+	</div>
+	<p id="table"></p>
+	<div style="max-width:960px; background-color:#ccc; margin: 0 auto; margin-top:20px; padding:10px;">
+	<table>
+      <tr>
+        <th>Колонка 1</th>
+        <th>Колонка 2</th>
+		<th>Колонка 2</th>
+		<th>Колонка 2</th>
+      </tr>
+      <tr>
+        <td>Ячейка 11</td>
+		<td>Ячейка 12</td>
+		<td>Ячейка 13</td>
+		<td>Ячейка 14</td>
+      </tr>
+      <tr>
+        <td>Ячейка 21</td>
+        <td>Ячейка 22</td>
+		<td>Ячейка 23</td>
+        <td>Ячейка 24</td>
+      </tr>
+	  <tr>
+        <td>Ячейка 31</td>
+        <td>Ячейка 32</td>
+		<td>Ячейка 33</td>
+        <td>Ячейка 34</td>
+      </tr>
+	  <tr>
+        <td>Ячейка 41</td>
+        <td>Ячейка 42</td>
+		<td>Ячейка 43</td>
+        <td>Ячейка 44</td>
+      </tr>
+	  <tr>
+        <td>Ячейка 51</td>
+        <td>Ячейка 52</td>
+		<td>Ячейка 53</td>
+        <td>Ячейка 54</td>
+      </tr>
+	  <tr>
+        <td>Ячейка 51</td>
+        <td>Ячейка 52</td>
+		<td>Ячейка 53</td>
+        <td>Ячейка 54</td>
+      </tr>
+    </table>
+	</div>
+	<div style="max-width:960px; background-color:#ccc; margin: 0 auto; margin-top:20px; padding:10px;">
+	<p id="form"></p>
+	   <form action="/"
+		  method="POST">
 
-      <label>
-        ФИО:<br />
-        <input name="FIO"
-          value="" />
-      </label><br />
+		  <label>
+			ФИО:<br />
+			<input name="FIO"
+			  value="" />
+		  </label><br />
 
-      <label>
-        email:<br />
-        <input name="email"
-          type="email"
-          placeholder="" />
-      </label><br />
+		  <label>
+			email:<br />
+			<input name="email"
+			  type="email"
+			  placeholder="" />
+		  </label><br />
 
-      <label>
-        Дата рождения:<br />
-        <input name="date"
-          value="2023-09-13"
-          type="date" />
-      </label><br />
+		  <label>
+			Дата рождения:<br />
+			<input name="date"
+			  value="2023-09-13"
+			  type="date" />
+		  </label><br />
 
-     Пол: <br />
-    <label><input type="radio" checked="checked"
-    name="radio-group-1" value="Мужской" />Мужской</label>
-    <label><input type="radio"
-    name="radio-group-1" value="Женский" />Женский</label><br />
-    
-<label>Любимый язык программирования:<br />
-      <select name="PL[]" multiple="multiple">
-        <option value="Pascal">Pascal</option>
-        <option value="C">C</option>
-        <option value="C++">C++</option>
-        <option value="JavaScript">JavaScript</option>
-        <option value="PHP">PHP</option>
-        <option value="Python">Python</option>
-        <option value="Java">Java</option>
-        <option value="Haskel">Haskel</option>
-        <option value="Clojure">Clojure</option>
-        <option value="Prolog">Prolog</option>
-        <option value="Scala">Scala</option>
-        </select>
-      </label><br/>
-       О себе: <br>
-       <textarea name="info"></textarea><br>
+		 Пол: <br />
+		<label><input type="radio" checked="checked"
+		name="radio-group-1" value="Мужской" />Мужской</label>
+		<label><input type="radio"
+		name="radio-group-1" value="Женский" />Женский</label><br />
+		
+	<label>Любимый язык программирования:<br />
+		  <select name="PL[]" multiple="multiple">
+			<option value="Pascal">Pascal</option>
+			<option value="C">C</option>
+			<option value="C++">C++</option>
+			<option value="JavaScript">JavaScript</option>
+			<option value="PHP">PHP</option>
+			<option value="Python">Python</option>
+			<option value="Java">Java</option>
+			<option value="Haskel">Haskel</option>
+			<option value="Clojure">Clojure</option>
+			<option value="Prolog">Prolog</option>
+			<option value="Scala">Scala</option>
+			</select>
+		  </label><br/>
+		   О себе: <br>
+		   <textarea name="info"></textarea><br>
 
-      Чекбокс:<br />
-      <label><input type="checkbox" checked="checked"
-        name="ok" />
-        C контрактом ознакомлен(а)</label><br />
-       
-      <input type="submit" value="Отправить" />
-    </form>
- 
+		  Чекбокс:<br />
+		  <label><input type="checkbox" checked="checked"
+			name="ok" />
+			C контрактом ознакомлен(а)</label><br />
+		   
+		  <input type="submit" value="Отправить" />
+		  </div>
+		  <div style="width:100%; height:100px; background-color:#ccc; margin:10px; padding:10px;">
+      <span style="background-color:#ccc;">(с) Берлов Кирилл</span><br>
+	  <a href="#head">Вернуться в начало</a>
+    </div>
+		</form>
+	</body>
