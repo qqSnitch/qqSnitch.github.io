@@ -9,14 +9,25 @@
   <p id="head"></p>
 <body>
 	<header class = "head">
-	<p id="home_page"></p>
+      		<img class = "logo" src="Profile.png" alt="logo" />
+      		<p id = "home_page"></p>
+   	</header>
+	<main>
+      <nav class = "navigation">
+        <a href = "#mesto" class = "top">Список гиперсылок</a>
+        <a href = "#table" class = "table">Таблица</a>
+        <a href = "#form" class = "form">Форма</a>
+      </nav>
+    </main>
+    <div class = "select">
+      <div class = "menu">
+	<p id="top">Фрагмент страницы</p>
 	<a href="http://kubsu.ru/">1)КубГУ</a> 
 	<br>
 	<a href="https://kubsu.ru/">2)КубГУ</a> 
 	<br>
 	<a href="http://kubsu.ru/"><img src="kubsu.png" alt="pic1" ></a>
 	<br>
-	<p id="top">Фрагмент страницы</p>
 	<p><a href="/about.html">4)Ссылка на внутренюю страницу </a></p>
 	<br>
 	<a href="/index.html">5)Сокращенная ссылка на главную страницу</a>
@@ -35,7 +46,7 @@
 	<br>
 	<a href="../../index.html">12)Ссылка на два каталога выше</a>
 	<br>
-	13) Абзац с контекстной ссылкой, <a href="index.html#home_page">вернуться в начало</a>
+	<p>13) Абзац с контекстной ссылкой, <a href="index.html#home_page">вернуться в начало</a></p>
 	<br>
 	<a href="https://ru.wikipedia.org/wiki/HTML#Браузерные_войны">14)Cсылка на фрагмент страницы стороннего сайта</a>
 	<br>
@@ -63,92 +74,102 @@
 	<br>
 	   <a href="ftp://user:pass@tavalik.ru/Temp/file.txt">21) Ссылка на FTP с авторизацией</a>
 	<br>
-	<p id="table"></p>
-	<table>
-      <tr>
-        <th>Колонка 1</th>
-        <th>Колонка 2</th>
-	<th>Колонка 2</th>
-	<th>Колонка 2</th>
-      </tr>
-      <tr>
-        <td>Ячейка 11</td>
-	<td>Ячейка 12</td>
-	<td>Ячейка 13</td>
-	<td>Ячейка 14</td>
-      </tr>
-      <tr>
-        <td>Ячейка 21</td>
-        <td>Ячейка 22</td>
-	<td>Ячейка 23</td>
-        <td>Ячейка 24</td>
-      </tr>
-	  <tr>
-        <td>Ячейка 31</td>
-        <td>Ячейка 32</td>
-	<td>Ячейка 33</td>
-        <td>Ячейка 34</td>
-      </tr>
-	  <tr>
-        <td>Ячейка 41</td>
-        <td>Ячейка 42</td>
-	<td>Ячейка 43</td>
-        <td>Ячейка 44</td>
-      </tr>
-	  <tr>
-        <td>Ячейка 51</td>
-        <td>Ячейка 52</td>
-	<td>Ячейка 53</td>
-        <td>Ячейка 54</td>
-      </tr>
-	  <tr>
-        <td>Ячейка 61</td>
-        <td>Ячейка 62</td>
-	<td>Ячейка 63</td>
-        <td>Ячейка 64</td>
-      </tr>
-    </table>
-	<p id="form"></p>
-	<form action="/" method="POST">
-<label>
-	
-ФИО:<br>
-<input name="FIO" value=""></label><br>
-<label>
-	
-email:<br>
-<input name="email" type="email" placeholder=""></label><br>
-<label>
-	
-Дата рождения:<br>
-<input name="date" value="2023-09-13" type="date"></label><br>
+	</div>
+	<div class = "Table">
+		<p id="table"></p>
+		<table>
+	      <tr>
+	        <th>Колонка 1</th>
+	        <th>Колонка 2</th>
+		<th>Колонка 2</th>
+		<th>Колонка 2</th>
+	      </tr>
+	      <tr>
+	        <td>Ячейка 11</td>
+		<td>Ячейка 12</td>
+		<td>Ячейка 13</td>
+		<td>Ячейка 14</td>
+	      </tr>
+	      <tr>
+	        <td>Ячейка 21</td>
+	        <td>Ячейка 22</td>
+		<td>Ячейка 23</td>
+	        <td>Ячейка 24</td>
+	      </tr>
+		  <tr>
+	        <td>Ячейка 31</td>
+	        <td>Ячейка 32</td>
+		<td>Ячейка 33</td>
+	        <td>Ячейка 34</td>
+	      </tr>
+		  <tr>
+	        <td>Ячейка 41</td>
+	        <td>Ячейка 42</td>
+		<td>Ячейка 43</td>
+	        <td>Ячейка 44</td>
+	      </tr>
+		  <tr>
+	        <td>Ячейка 51</td>
+	        <td>Ячейка 52</td>
+		<td>Ячейка 53</td>
+	        <td>Ячейка 54</td>
+	      </tr>
+		  <tr>
+	        <td>Ячейка 61</td>
+	        <td>Ячейка 62</td>
+		<td>Ячейка 63</td>
+	        <td>Ячейка 64</td>
+	      </tr>
+	    </table>
+	</div>
+    </div>
+	<div class = "Form">
+		<p id="form"></p>
+		<form action="/" method="POST">
+	<label>
 		
-Пол: <br>
-<label><input type="radio" checked="checked" name="radio-group-1" value="Мужской">Мужской</label>
-<label><input type="radio" name="radio-group-1" value="Женский">Женский</label><br>
+	ФИО:<br>
+	<input name="FIO" value=""></label><br>
+	<label>
 		
-<label>Любимый язык программирования:<br>
-<select name="PL[]" multiple="multiple">
-<option value="Pascal">Pascal</option>
-<option value="C">C</option>
-<option value="C++">C++</option>
-<option value="JavaScript">JavaScript</option>
-<option value="PHP">PHP</option>
-<option value="Python">Python</option>
-<option value="Java">Java</option>
-<option value="Haskel">Haskel</option>
-<option value="Clojure">Clojure</option>
-<option value="Prolog">Prolog</option>
-<option value="Scala">Scala</option>
-</select>
-</label><br>
-О себе: <br>
-<textarea name="info"></textarea><br>
-Чекбокс:<br>
-<label><input type="checkbox" checked="checked" name="ok">C контрактом ознакомлен(а)</label><br>
-<input type="submit" value="Отправить">
-</form>
-<div style="width:100%; height:100px; background-color:#ccc; margin:10px; padding:10px;">
-<span style="background-color:#ccc;">(с) Берлов Кирилл</span><br>
-<a href="#head">Вернуться в начало</a>
-</body>
+	email:<br>
+	<input name="email" type="email" placeholder=""></label><br>
+	<label>
+		
+	Дата рождения:<br>
+	<input name="date" value="2023-09-13" type="date"></label><br>
+			
+	Пол: <br>
+	<label><input type="radio" checked="checked" name="radio-group-1" value="Мужской">Мужской</label>
+	<label><input type="radio" name="radio-group-1" value="Женский">Женский</label><br>
+			
+	<label>Любимый язык программирования:<br>
+	<select name="PL[]" multiple="multiple">
+	<option value="Pascal">Pascal</option>
+	<option value="C">C</option>
+	<option value="C++">C++</option>
+	<option value="JavaScript">JavaScript</option>
+	<option value="PHP">PHP</option>
+	<option value="Python">Python</option>
+	<option value="Java">Java</option>
+	<option value="Haskel">Haskel</option>
+	<option value="Clojure">Clojure</option>
+	<option value="Prolog">Prolog</option>
+	<option value="Scala">Scala</option>
+	</select>
+	</label><br>
+	О себе: <br>
+	<textarea name="info"></textarea><br>
+	Чекбокс:<br>
+	<label><input type="checkbox" checked="checked" name="ok">C контрактом ознакомлен(а)</label><br>
+	<input type="submit" value="Отправить">
+	</form>
+	<div style="width:100%; height:100px; background-color:#ccc; margin:10px; padding:10px;">
+	<span style="background-color:#ccc;">(с) Берлов Кирилл</span><br>
+	<a href="#head">Вернуться в начало</a>
+	</div>
+<footer>
+      <p>(c) Берлов Кирилл. <a href="#head">Вернуться в начало</a>.</p>
+    </footer>
+  </body>
+</html>
