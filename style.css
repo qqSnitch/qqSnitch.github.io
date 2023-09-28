@@ -14,7 +14,7 @@ header {
     width: 100%;
 }
 
-#nazv {
+#name {
     flex-grow: 4;
     padding: 5px 20px 5px 5px;
     width: 372px;
@@ -169,7 +169,7 @@ footer {
         height: auto;
     }
 
-    #nazv {
+    #name {
         width: 246px;
         height: 50px;
         flex-shrink: 0;
