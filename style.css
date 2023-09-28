@@ -3,8 +3,8 @@ header, footer, nav, article {display: block;}
 header {
     margin 0;
     width: 100%;
-    color:rgb(57, 58, 47);
-    background-color:#2c3951bd;
+    color:rgb(100, 74, 216);
+    background-color:#1B0773;
     padding:12px;
     height: auto;
     justify-content: center;
