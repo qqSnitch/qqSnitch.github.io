@@ -46,7 +46,7 @@ img {
     order: -1;
     flex-direction: column;
     font-size: 0.9rem;
-    color: #1c1717;
+    color: #8370D8;
     margin-top: 1rem;
     height: auto;
     align-items:center;
@@ -55,7 +55,7 @@ img {
 .menu {
     flex-direction: column;
     font-size: 0.9rem;
-    color: #2c3951bd;
+    color: #8370D8;
     margin-top: 1rem;
     height: auto;
 }
@@ -63,14 +63,14 @@ img {
 .form {
     flex-direction: column;
     font-size: 0.9rem;
-    color: #1c1717;
+    color: #8370D8;
     margin-top: 1rem;
     height: auto;
 }
 
 body {
     margin: 0;
-    background-color: rgb(233, 233, 207);
+    background-color: rgb(61, 45, 132);
 }
 
 .navigation {
