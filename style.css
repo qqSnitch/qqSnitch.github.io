@@ -143,7 +143,7 @@ footer {
 
 @media screen and (min-width: 800px) {
 
-    .vibor {
+    .select {
         display: flex;
         flex-direction: column;
     }
