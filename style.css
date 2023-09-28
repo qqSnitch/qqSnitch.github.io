@@ -76,7 +76,7 @@ body {
     list-style: none;
 }
 
-.list  {
+.navigagtion  {
     width: 100%;
     text-decoration: none;
     color: #43437f;
@@ -161,7 +161,7 @@ footer {
         right: 0;
     }
 
-    .Table {
+    .table {
         order: 0;
     }
 
