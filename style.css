@@ -111,11 +111,6 @@ a:active {
     color:#393b2c;
 }
 
-h2 {
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size:x-large;
-}
-
 table {
     table-layout: fixed;
     border: 1px solid black;
