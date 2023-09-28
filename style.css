@@ -109,11 +109,11 @@ td {
 }
 
 tbody tr:nth-child(odd) {
-    background-color: #310062;
+    background-color: #f8f8ff;
 }
 
 tbody tr:nth-child(even) {
-    background-color: #270847;
+    background-color: #ddeeff;
 }
 
 footer {
