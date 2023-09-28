@@ -16,7 +16,7 @@ header {
 }
 img {
     width: 80%;
-    
+    max-width: 800px;    
 }
 
 #home_page {
