@@ -1,1 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <title> Калькулятор стоимости.</title>
+    <script defer src="scripts.js"></script>
+  </head>
+  <body>
+    <main>
+      <h1>Калькулятор стоимости.</h1>
+      <form>
+        <select name="select">
+          <option value="0">Выбрать</option>
+          <option value="20">Ручка</option>
+          <option value="15">Карандаш</option>
+          <option value="30">Ластик</option>
+          <option value="50">Маркер</option>
+        </select>
+        <input name="field" type="number">
+        <button id="button1" onclick="return click();">Расчитать</button> 
+      </form>
+      <div id="result"></div>
+    </main>
+  </body>
+  
+</html>
 
