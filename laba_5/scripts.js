@@ -1,14 +1,13 @@
-document.addEventListener("DOMContentLoaded", function () { 
-    let button1 = document.getElementById("button1"); 
-    button1.addEventListener("click", index); 
+document.addEventListener("DOMContentLoaded", function (){ 
+    let button1 = document.getElementById("button1");
+    button1.addEventListener("click", index);
 });
 function check()
 {
     let a = document.getElementById("field").value;
-    if(a>0)return true;
+    if(a>0){return true;}
 }
-function index(e) 
-{ 
+function index(e) { 
     e.preventDefault();
     let select = document.getElementById("select");
     let field = document.getElementById("field");
