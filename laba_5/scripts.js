@@ -1,16 +1,26 @@
-function click() 
+document.addEventListener("DOMContentLoaded", function () { 
+    let button1 = document.getElementById("button1"); 
+    button1.addEventListener("click", index); 
+});
+function check()
+{
+    let a = document.getElementById("field").value;
+    if(a>0)return true;
+}
+function index(e) 
 { 
-    let select = document.getElementsByName("select");
-    let field = document.getElementsByName("field");
+    e.preventDefault();
+    let select = document.getElementById("select");
+    let field = document.getElementById("field");
     let result = document.getElementById("result");
-    let sum;
-    if(field == ""){
-        alert("Вы не указали количество");
-    } 
-    if(select == 0){
-        alert("Вы не выбрали предмет");
+    let sum = 0;
+    if(check())
+    {
+        sum = parseInt(select.options[select.selectedIndex].value);
+        sum = parseInt(field.value) *sum;
+        result.innerHTML =sum;
+        return false;
+    }else{
+        alert ("Не правильный ввод")
     }
-    sum += parseInt(select.options[select.selectedIndex].value);
-    sum = parseInt(field.value) *sum;
-    result.innerHTML =sum;
   }
