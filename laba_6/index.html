@@ -17,32 +17,32 @@
           <option value="50">Маркер</option>
         </select>
         <input id="field" type="number" placeholder="Введите количество">
-        <button id="button1" onclick="return index();">Рассчитать</button> 
+        <button id="button1" onchange="return index();">Рассчитать</button> 
         <div>
           <span id="result"></span>
         </div>
       </form>
       <br>
       <h1>Калькулятор услуги.</h1>
-      <div class="radios" id="radios"><input type="radio" name="radio-group-1" value="1" onchange="schet();">Плитка</label>
-        <input type="radio" name="radio-group-1" value="2"onchange="schet();">Обои</label>
-        <input type="radio" name="radio-group-1" value="3"onchange="schet();">Натяжной потолок</label>
+      <div class="radios" id="radios"><input type="radio" name="radio-group-1" value="1" onchange="schet();">Плитка
+        <input type="radio" name="radio-group-1" value="2" onchange="schet();">Обои
+        <input type="radio" name="radio-group-1" value="3" onchange="schet();">Натяжной потолок
       </div> 
       <br>
-      <input id="kol" type="number" placeholder="Введите размер в м²"onchange="schet();">
+      <input id="kol" type="number" placeholder="Введите размер в м²" onchange="schet();">
       <br>
       <div class="select1" id="select1">
         <select id="plitka">
-          <option value="0"onclick="schet();">Выбрать</option>
-          <option value="120"onclick="schet();">Керамическая плитка</option>
-          <option value="150"onclick="schet();">Керамический гранит</option>
-          <option value="250"onchange="schet();">Стеклянная мозаика</option>
-          <option value="500"onchange="schet();">Клинкерная плитка</option>
+          <option value="0" onchange="schet();">Выбрать</option>
+          <option value="120" onchange="schet();">Керамическая плитка</option>
+          <option value="150" onchange="schet();">Керамический гранит</option>
+          <option value="250" onchange="schet();">Стеклянная мозаика</option>
+          <option value="500" onchange="schet();">Клинкерная плитка</option>
         </select>
       </div>
       <div class="check" id="check">
-        <lable><input type="checkbox" name="vid" value="30"onchange="schet();">С повторяющимся рисунком</lable>
-        <lable><input type="checkbox" name="vid" value="50"onchange="schet();">Свой дизайн</lable>
+        <input type="checkbox" name="vid" value="30" onchange="schet();">С повторяющимся рисунком
+        <input type="checkbox" name="vid" value="50" onchange="schet();">Свой дизайн
       </div>
       <div>
         Стоимоcть = <span id="result1"></span>
@@ -50,4 +50,3 @@
     </main>
   </body>
 </html>
-
