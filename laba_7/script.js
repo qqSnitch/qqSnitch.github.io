@@ -1,10 +1,11 @@
+/*global $ */
 $(document).ready(function(){
     $(".slider").slick({
         arrows: true,
         dots: true,
         infinity: true,
-        prevArrow: "<img src='left.png' class='prev' alt='l'>",
         nextArrow: "<img src='right.png' class='next' alt='r'>",
+        prevArrow: "<img src='left.png' class='prev' alt='l'>",
         slidesToScroll: 1,
         slidesToShow: 3,
         responsive:[
