@@ -1,11 +1,12 @@
+/*global $*/
 const button = document.querySelector("button");
 const form = document.querySelector("#myForm");
 const popup = document.querySelector(".popup");
-button.addEventListener("click",()=>{
+button.addEventListener("click",function(e){
   form.classList.add("open");
   popup.classList.add("open");
-  history.pushState(null, null, "1.html");
-  history.forward();
+  window.history.pushState(null, null, "1.html");
+  window.history.forward();
 });
 
 let popupOpen = false;
